@@ -1,16 +1,32 @@
 * {
-	background-color: #b0aeae;
+	font-family: Helvetica;
 	
+}
+
+body {
+	background-color: #262626;
 }
 
 h1 {
-	font-family: Helvetica;
+	color: white;
+	align-text: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	width: 20%;
 }
 
 p {
-	font-family: Helvetica;
+	color: white;
+	align-text: center;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 150px;
+	width: 20%;
 }
 
-div {
-	
+.flex-container {
+	display: flex;
+	justify-content: center;
+	position: relative;
 }
